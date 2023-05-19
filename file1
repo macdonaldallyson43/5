@@ -1,0 +1,9 @@
+string str = "Hello, world!";
+string word = "world";
+
+if (str.Contains(word)) {
+    Console.WriteLine("The string contains the word.");
+} else {
+    Console.WriteLine("The string does not contain the word.");
+}
+
